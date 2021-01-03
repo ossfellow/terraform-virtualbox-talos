@@ -1,6 +1,6 @@
 # Talos on VirtualBox
 
-[![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/masoudbahar/terraform-virtualbox-talos?include_prereleases&label=release&sort=semver)](https://github.com/masoudbahar/terraform-virtualbox-talos/releases) [![GitHub](https://img.shields.io/github/license/masoudbahar/terraform-virtualbox-talos?label=license)](https://github.com/masoudbahar/terraform-virtualbox-talos/blob/main/LICENSE)
+![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/masoudbahar/terraform-virtualbox-talos?include_prereleases&style=plastic)![GitHub](https://img.shields.io/github/license/masoudbahar/terraform-virtualbox-talos?style=plastic)
 
 The **terraform-virtualbox-talos** module could be used to build a [Talos](https://www.talos.dev/docs/v0.8/introduction/what-is-talos/#why-talos) based, fully compliant, [Kubernetes](https://kubernetes.io) cluster, using [Oracle VirtualBox](https://www.virtualbox.org), without any manual intervention; just provide the VM names and [Talos version](https://github.com/talos-systems/talos/releases), or customize the default options to match your needs, and in a few minutes start using your Kubernetes cluster, which could be used as a [Cluster API](https://cluster-api.sigs.k8s.io) (CAPI) [Bootstrap provider](https://cluster-api.sigs.k8s.io/user/concepts.html#bootstrap-provider), or a [GitOps bootstrap cluster](https://github.com/fluxcd/flux2), to just name a few use cases.
 
