@@ -1,10 +1,8 @@
 # Changelog
-All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
+## 0.1.0 (2021-01-03)
 
-The project follows [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/),
-and adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-It uses Google's [Release Please GitHub Action](https://github.com/marketplace/actions/release-please-action),
-for releases and Changelog maintenance.
+### Features
+
+* This is the initial release of the Project VirtualBox Talos Module. ([8366784](https://www.github.com/masoudbahar/terraform-virtualbox-talos/commit/83667843c2bfbb547fa1f45a0ed88f4a33faf356))
