@@ -24,11 +24,11 @@ Please see [Terraform Registry](https://registry.terraform.io/browse/modules) fo
 
 ```hcl
 module "talos" {
-  source = "masoudbahar/virtualbox-talos/kubernetes"
+  source = "masoudbahar/talos/virtualbox"
   version = ">= 0.1.0"
 
-  controlplane_nodes      = ["kube"]
-  talos_version           = "v0.8.0"
+  controlplane_nodes = ["kube"]
+  talos_version      = "v0.8.0"
 }
 ```
 >Please see examples section below, for more customizations and various use cases.
